@@ -7425,7 +7425,7 @@ __macosx_get_packagesite() {
         __PY_VERSION_REPO="py3"
     fi
 
-    PKG="salt-${STABLE_REV}-${__PY_VERSION_REPO}-${DARWIN_ARCH}.pkg"
+    PKG="salt-${STABLE_REV}-${__PY_VERSION_REPO}-${DARWIN_ARCH}-notarized.pkg"
     SALTPKGCONFURL="https://repo.saltstack.com/osx/${PKG}"
 }
 
